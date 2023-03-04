@@ -31,14 +31,4 @@ CREATE TABLE rentals_june AS (
 SELECT COUNT(*)
 FROM rentals_june;
 
--- Create a Python connection with SQL database and retrieve the results of the last two queries (also mentioned below) as dataframes:
-
-Check the number of rentals for each customer for May
-
-Check the number of rentals for each customer for June
-
-Hint: You can store the results from the two queries in two separate dataframes.
-
-Write a function that checks if customer borrowed more or less films in the month of June as compared to May.
-
-Hint: For this part, you can create a join between the two dataframes created before, using the merge function available for pandas dataframes. Here is a link to the documentation for the merge function.
+# Continued in the jupyter notebook file : Unit2_lab9_pt2
